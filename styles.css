@@ -42,9 +42,20 @@ h2{
   display: none;
 }
 
-svg{
+svg {
   margin:-60px;
+  /* vertical-align: middle;
+  text-align: middle; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
+}
+
+.boxes{
+  /* display:absolute; */
   display: flex;
-  flex-box: center;
-  flex-box: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px 100px;
+
 }

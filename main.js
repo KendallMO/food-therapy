@@ -131,9 +131,84 @@ function loveEmotion2 (){
   localStorage.setItem('love22', love22);
   localStorage.setItem('love222', love222);
 
-
+// progressBar()
   console.log(localStorage);
 }
+
+var sumbit = $('.submit')
+
+submit.on("click", progressBar)
+
+function progressBar() {
+  var dropDown = $('.drop-down1')
+  event.preventDefault();
+  var empty = $('progress');
+  if (1 ===1){
+  $(empty).html(`<progress max="60" value="90"> </progress>');
+}
+}
+
+
+//////////
+// var pb = $(".progress-bar")
+// function progressBar() {
+//   if (pb["sadd"]=="touch the food   5 "){
+//         $('.thing').html('<progress max="60" value="5"> </progress>');
+//     }
+//   else if (pb["happyy"]=="touch the food   5 "){
+//           $('.thing').html('<progress max="60" value="5"> </progress>');
+//     }
+//   else if (pb["nuetrall"]=="touch the food   5 "){
+//           $('.thing').html('<progress max="60" value="5"> </progress>');
+//       }
+//   else if (pb["lovee"]=="touch the food   5 "){
+//             $('.thing').html('<progress max="60" value="5"> </progress>');
+//         }
+//   else if (pb["sadd"]=="lick the food   10 "){
+//               $('.thing').html('<progress max="60" value="10"> </progress>');
+//         }
+//   else if (pb["happyy"]=="lick the food   10 "){
+//                     $('.thing').html('<progress max="60" value="10"> </progress>');
+//         }
+//   else if (pb["nuetrall"]=="lick the food   10 "){
+//                     $('.thing').html('<progress max="60" value="10"> </progress>');
+//               }
+//   else if (pb["lovee"]=="lick the food   10 "){
+//                           $('.thing').html('<progress max="60" value="10"> </progress>');
+//                     }
+//   else if (pb["sadd"]=="rocket the food   15 "){
+//                    $('.thing').html('<progress max="60" value="15"> </progress>');
+//                           }
+//   else if (pb["happyy"]=="rocket the food   15 "){
+//                     $('.thing').html('<progress max="60" value="15"> </progress>');
+//                                                   }
+//   else if (pb["nuetrall"]=="rocket the food   15 "){
+//           $('.thing').html('<progress max="60" value="15"> </progress>');
+//                                             }
+//   else if (pb["lovee"]=="rocket the food   15 "){
+//              $('.thing').html('<progress max="60" value="15"> </progress>');
+//                         }
+//   else if (pb["sadd"]=="bite & chew the food   30 "){
+//             $('.thing').html('<progress max="60" value="30"> </progress>');
+//                         }
+//   else if (pb["happyy"]=="bite & chew the food   30 "){
+//            $('.thing').html('<progress max="60" value="30"> </progress>');
+//                     }
+//   else if (pb["neutrall"]=="bite & chew the food   30 "){
+//           $('.thing').html('<progress max="60" value="30"> </progress>');
+//                   }
+//   else if (pb["lovee"]=="bite & chew the food   30 "){
+//           $('.thing').html('<progress max="60" value="30"> </progress>');
+//             }
+//
+//     }
+
+
+
+
+
+
+
 // GIFS
 
 // function pickGifs(){
@@ -149,18 +224,18 @@ function loveEmotion2 (){
 // “https://media1.giphy.com/media/20PAya23nqQp0VtDew/giphy.gif”,
 // “https://thumbs.gfycat.com/RemorsefulHeftyAsianelephant-max-1mb.gif"]
 
-var allGifs = [$('.gifone'),$('.giftwo'),$('.gifthree'),$('.giffour'),$('.giffive'),$('.gifsix'),$('.gifseven')];
-
-happy.on("click", pickGifs);
-
-function pickGifs() {
-  console.log(allGifs.length);
-    var random = Math.random() * allGifs.length;
-     var rounded = Math.floor(random);
-     var outcome = allGifs[rounded];
-     console.log(allGifs[rounded]);
-     message.text(allGifs[rounded]);
-}
-
+// var allGifs = [$('.gifone'),$('.giftwo'),$('.gifthree'),$('.giffour'),$('.giffive'),$('.gifsix'),$('.gifseven')];
+//
+// happy.on("click", pickGifs);
+//
+// function pickGifs() {
+//   console.log(allGifs.length);
+//     var random = Math.random() * allGifs.length;
+//      var rounded = Math.floor(random);
+//      var outcome = allGifs[rounded];
+//      console.log(allGifs[rounded]);
+//      message.text(allGifs[rounded]);
+// }
+//
 
 // }
